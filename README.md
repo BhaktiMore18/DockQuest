@@ -35,6 +35,7 @@ If not installed, follow the official instructions for your platform:
   - [Docker Engine (Linux)](https://docs.docker.com/engine/install/)
   - [Docker Desktop for macOS](https://docs.docker.com/desktop/setup/install/mac-install/)    
 
+
 > 💡 **Note for Windows Users:**  
 > To run Docker and this challenge, you **must install Docker Desktop** with **WSL2 enabled**.  
 > Docker Desktop handles the Linux environment needed for Docker to work on Windows.  
@@ -58,13 +59,13 @@ chmod +x *.sh
 Start your journey with:
 
 ```bash
-./preload.sh     # Prepares the environment
-./run.sh         # Drops you into the challenge
+./setup.sh     # Prepares the environment
+./launch.sh    # Drops you into the challenge
 ```
 ### 4️⃣ Clean Up (Optional)
 Done exploring? You can tidy up with:
 ```bash
-./cleanup.sh
+./clear.sh     # Removes containers and images
 ```
 
 ## 🎯 What’s Inside?
@@ -82,6 +83,6 @@ Yes!! there’s a flag, but only if you earn it.
 “You don’t run the container. You become the container.”
 
 Every command gets you closer.  
-Think, explore, try — that’s all it takes.
+Think, explore, try, that’s all it takes.
 
 **The flag is yours to find. Good luck!**
